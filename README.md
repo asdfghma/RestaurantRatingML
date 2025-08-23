@@ -25,21 +25,7 @@ A modern, professional **Streamlit** web application that predicts a restaurant'
 - **scikit-learn** – Machine learning model
 - **NumPy** – Numerical computations
 - **Joblib** – Model serialization
-
----
-
-## 📂 Project Structure
-```
-Restaurant-Ratings-Predictor/
-│
-├── app.py                # Main Streamlit application
-├── Scaler.pkl            # Pre-fitted scaler object
-├── mlmodel.pkl           # Trained ML model
-├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation
-```
-
----
+  
 
 ## 🚀 Installation & Usage
 
