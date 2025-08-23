@@ -2,8 +2,8 @@
 
 A modern, professional **Streamlit** web application that predicts a restaurant's review score and class based on given features such as average cost, table booking availability, online delivery, and price range.
 
-![App Screenshot](docs/screenshot.png)
-
+![App Screenshot](screenshots/1.png)
+![App Screenshot](screenshots/2.png)
 ---
 
 ## 📌 Features
