@@ -54,7 +54,7 @@ label {
 h1 {
     font-size: 44px !important;
     font-weight: 800 !important;
-    color: #FFFFFF  !important; /* Corporate blue */
+    color: #FFFFFF  !important; 
     text-align: center;
 }
 
@@ -71,11 +71,11 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;           /* sabit genişlik */
-    height: 60px;           /* sabit yükseklik */
-    margin: 10px auto;      /* ortalama */
+    width: 250px;           
+    height: 60px;           
+    margin: 10px auto;      
     border-radius: 10px;
-    font-size: 18px;        /* daha küçük, okunabilir boyut */
+    font-size: 18px;        
     font-weight: 600;
     color: white;
     box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
@@ -143,19 +143,19 @@ if predictbutton:
 
     if prediction < 2.5:
         result = "😞 Poor"
-        color = "#DC3545"  # Bootstrap danger red
+        color = "#DC3545"  
     elif prediction < 3.5:
         result = "😐 Average"
-        color = "#FFC107"  # Bootstrap warning yellow
+        color = "#FFC107"  
     elif prediction < 4.0:
         result = "🙂 Good"
-        color = "#0DCAF0"  # Bootstrap info cyan
+        color = "#0DCAF0"  
     elif prediction < 4.5:
         result = "😃 Very Good"
-        color = "#198754"  # Bootstrap success green
+        color = "#198754"  
     else:
         result = "🤩 Excellent"
-        color = "#6610F2"  # Bootstrap purple
+        color = "#6610F2"  
 
     st.markdown(
         f"<div class='prediction-box' style='background-color:{color};'>{result}</div>",
